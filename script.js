@@ -3,6 +3,7 @@ const quoteText = document.getElementById('quote');
 const authorText = document.getElementById('author');
 const twitterButton = document.getElementById('twitter');
 const newButton = document.getElementById('new-quote');
+const loader = document.getElementById('loader');
 
 // let apiQuotes = [];
 
@@ -38,6 +39,18 @@ function tweetQuote() {
 
 newQuote();
 
+// Hide Loading
+function complete() {
+      loader.hidden = true;
+    quoteContainer.hidden = false;
+}
+
+
+function loading() {
+    loader.hidden = false;
+    quoteContainer.hidden = true;
+
+}
 
 //  Event listener
 newButton.addEventListener('click', newQuote);
@@ -49,7 +62,7 @@ twitterButton.addEventListener('click', tweetQuote);
 // async function getQuotes() {
 //     const apiURL = 'https://type.fit/api/quotes';
 //     try {
-//         const response = await fetch(apiURL); 
+//         const response = await fetch(apiURL);
 //         apiQuotes = await response.json();
 //         console.log(apiQuotes[12])
 //     }catch(error){
@@ -58,5 +71,8 @@ twitterButton.addEventListener('click', tweetQuote);
 // }
 
 //  on Load
+// loader()
+// loading()
 // getQuotes();
+complete()
 
