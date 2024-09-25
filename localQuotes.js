@@ -1,0 +1,23 @@
+const localQuotes=[
+    {"text": "The only way to do great work is to love what you do.", "author": "Steve Jobs"},
+    {"text": "Life is what happens when you're busy making other plans.", "author": "John Lennon"},
+    {"text": "You miss 100% of the shots you don't take.", "author": "Wayne Gretzky"},
+    {"text": "The journey of a thousand miles begins with one step.", "author": "Lao Tzu"},
+    {"text": "That which does not kill us makes us stronger.", "author": "Friedrich Nietzsche"},
+    {"text": "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.", "author": "Ralph Waldo Emerson"},
+    {"text": "Success is not the key to happiness. Happiness is the key to success.", "author": "Albert Schweitzer"},
+    {"text": "The only limit to our realization of tomorrow is our doubts of today.", "author": "Franklin D. Roosevelt"},
+    {"text": "What lies behind us and what lies before us are tiny matters compared to what lies within us.", "author": "Ralph Waldo Emerson"},
+    {"text": "Do not wait to strike till the iron is hot, but make it hot by striking.", "author": "William Butler Yeats"},
+    {"text": "It does not matter how slowly you go as long as you do not stop.", "author": "Confucius"},
+    {"text": "You must be the change you wish to see in the world.", "author": "Mahatma Gandhi"},
+    {"text": "The best way to predict the future is to invent it.", "author": "Alan Kay"},
+    {"text": "Believe you can and you're halfway there.", "author": "Theodore Roosevelt"},
+    {"text": "Happiness is not something ready-made. It comes from your own actions.", "author": "Dalai Lama"},
+    {"text": "The only thing we have to fear is fear itself.", "author": "Franklin D. Roosevelt"},
+    {"text": "Act as if what you do makes a difference. It does.", "author": "William James"},
+    {"text": "Success usually comes to those who are too busy to be looking for it.", "author": "Henry David Thoreau"},
+    {"text": "Dream big and dare to fail.", "author": "Norman Vaughan"},
+    {"text": "Keep your face always toward the sunshine—and shadows will fall behind you.", "author": "Walt Whitman"},
+    {"text": "You only live once, but if you do it right, once is enough.", "author": "Mae West"}
+]
